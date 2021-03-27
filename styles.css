@@ -11,8 +11,12 @@ body {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: hsla(270, 53%, 37%, 1);
     text-align: center;
+    z-index: 69;
 }
 
 header ul {
@@ -76,7 +80,7 @@ a {
 }
 
 main {
-    margin: 80px auto;
+    margin: 150px auto;
     position: relative;
     width: 1200px;
 }
