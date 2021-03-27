@@ -1,0 +1,185 @@
+/* box-shadow: 0 1px 1px 1px rgb(10 16 34 / 8%); */
+
+/* background-color: hsl(36, 56%, 32%); orange dark variant
+background-color: hsl(140, 61%, 56%); green 	#4ad378
+background-color: hsl(36, 69%, 54%);  orange	#db9a39
+background-color: hsl(270, 69%, 56%); purple
+background-color: hsl(270, 53%, 37%); purple dark variant 	#5e2c90*/ 
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: hsla(270, 53%, 37%, 1);
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Bree Serif', serif;
+    font-size: 100px;
+    color: hsla(36, 69%, 54%, 1);
+    margin: 0;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+header h2 {
+    background-color: hsla(36, 69%, 54%, 1);
+    color: hsla(270, 53%, 37%, 1);
+    font-size: 30px;
+    margin: 0;
+    padding: 30px;
+}
+
+
+h2, 
+p, 
+a,
+span,
+li
+ {
+    font-family: 'Alegreya', serif;
+    color: hsla(270, 53%, 37%, 1);
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    margin: 80px auto;
+    position: relative;
+    width: 1000px;
+}
+
+.navigation {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    padding: 20px;
+    margin-right: 20px;
+    background-color: hsla(140, 61%, 56%, 1);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.navigation:hover {
+    background-color: #FFFFFF;
+    border: 2px solid hsla(270, 53%, 37%, 1);
+}
+.navigation:active {
+    border: 2px solid hsla(270, 53%, 37%, 1);
+}
+
+.introduction {
+    margin-right: 0;
+    width: 1000px;
+    height: 200px;
+}
+
+.colors {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 490px;
+    height: 250px;
+}
+
+.fonts {
+    float: right;
+    margin-top: 20px;
+    margin-right: 0px;
+    width: 490px;
+    height: 250px;
+}
+
+.text-styles {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 490px;
+    height: 250px;
+}
+
+.buttons {
+    float: right;
+    margin-top: 20px;
+    margin-right: 0px;
+    width: 490px;
+    height: 250px;
+}
+
+footer {
+    width: 100%;
+    background-color: hsla(270, 53%, 37%, 1);
+    padding: 20px;
+}
+
+footer h2 {
+    font-size: 30px;
+    color: white;
+}
+
+footer a,
+footer p {
+    font-size: 20px;
+    color: white;
+}
+
+.column {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.source-code h2 {
+    font-family: 'Bree Serif', serif;
+    color:hsla(36, 69%, 54%, 1);
+}
+
+.contact {
+    font-style: normal;
+    margin-left: 500px;
+}
+
+.contact a {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.contact a:hover {
+    text-decoration: none;
+}
+
+.socials {
+    float: right;
+    margin-right: 50px;
+}
+
+.socials ul {
+    list-style: none;
+    padding-left: 0;
+    line-height: 1.5;
+}
+
+.socials a {
+    text-decoration: underline;
+}
+
+.socials a:hover {
+    text-decoration: none;
+}

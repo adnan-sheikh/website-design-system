@@ -1,0 +1,208 @@
+/* Global styles
+--------------------------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: hsla(270, 53%, 37%, 1);
+    text-align: center;
+}
+
+header ul {
+    margin: 0;
+    padding: 40px;
+
+}
+
+header li {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    font-family: 'Bree Serif', serif;
+    margin: 0;
+}
+
+header a {
+    font-family: 'Bree Serif', serif;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.logo {
+    color: hsla(36, 69%, 54%, 1);
+    font-size: 30px;
+    position: relative;
+    right: 50px;
+}
+
+header a:hover {
+    color: hsla(36, 69%, 54%, 1);
+}
+
+h1 {
+    color: hsla(270, 53%, 37%, 1);
+    font-family: 'Bree Serif', serif;
+    font-size: 80px;
+}
+
+h2, 
+p, 
+a,
+span,
+li
+ {
+    font-family: 'Alegreya', serif;
+    color: hsla(270, 53%, 37%, 1);
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    margin: 80px auto;
+    position: relative;
+    width: 1200px;
+}
+
+
+/* Color page styles
+--------------------------------------------- */
+
+.color {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 330px;
+    height: 400px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.color h2,
+.color p {
+    color: #FFFFFF;
+}
+
+.primary {
+    background-color: hsla(270, 53%, 37%, 1);
+}
+
+.primary h2,
+.primary p {
+    color: #FFFFFF;
+}
+
+.secondary {
+    background-color: hsla(36, 69%, 54%, 1);
+}
+
+.secondary h2,
+.secondary p {
+    color: hsla(270, 53%, 37%, 1);
+}
+
+.supporting {
+    background-color: hsla(140, 61%, 56%, 1);
+}
+
+.supporting h2,
+.supporting p {
+    color: hsla(270, 53%, 37%, 1);
+}
+
+
+/* Fonts page styles
+--------------------------------------------- */
+
+span {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+main a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+main a:hover {
+    text-decoration: none;
+}
+
+.bree, .alegreya {
+    width: 380px;
+}
+
+.bree h2, .alegreya h2 {
+    border-bottom: 2px solid hsla(270, 53%, 37%, 1);
+}
+
+.bree p {
+    font-family: 'Bree Serif', serif;
+}
+
+.alegreya p {
+    font-family: 'Alegreya', serif;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.bree, .alegreya {
+    margin-top: 50px;
+}
+
+/* Text styles page styles
+--------------------------------------------- */
+
+li {
+    font-size: 20px;
+}
+
+/* Buttons page styles
+--------------------------------------------- */
+
+button {
+    font-size: 20px;
+    text-decoration: none;
+    width: 200px;
+    padding: 20px;
+    background-color: hsla(140, 61%, 56%, 1);
+    border: none;
+    border-radius: 20px;
+    color: hsla(270, 53%, 37%, 1);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFFFFF;
+    border: 2px solid hsla(270, 53%, 37%, 1);
+    padding: 18px;
+}
