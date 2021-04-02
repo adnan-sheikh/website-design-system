@@ -140,20 +140,31 @@ footer p {
     color: white;
 }
 
+.center {
+    width: 62.198%;
+    margin: 0 auto;
+}
+
 .column {
     position: relative;
     display: inline-block;
     vertical-align: top;
 }
 
+.source-code {
+    padding-right: 10em;
+}
+
+
 .source-code h2 {
     font-family: 'Bree Serif', serif;
     color:hsla(36, 69%, 54%, 1);
+
 }
 
 .contact {
     font-style: normal;
-    margin-left: 500px;
+    padding-right: 10em;
 }
 
 .contact a {
@@ -165,10 +176,10 @@ footer p {
     text-decoration: none;
 }
 
-.socials {
+/* .socials {
     float: right;
     margin-right: 50px;
-}
+} */
 
 .socials ul {
     list-style: none;
@@ -183,3 +194,4 @@ footer p {
 .socials a:hover {
     text-decoration: none;
 }
+
